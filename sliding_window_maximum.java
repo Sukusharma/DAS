@@ -17,7 +17,7 @@ public class SlidingWindowMaximum {
 //FORGOT TO ADD EDGE CASE 
 
       if(nums == 0 || k<=0){
-return new int[0]
+return new int[0]  // it has to return an array, even if it's empty.so i return an empty zero integer array
 }
 
 int n = nums.length;
